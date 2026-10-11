@@ -1,12 +1,12 @@
 # MW4 Bot Fix
 
-A GSC script for **Modern Warfare 4 – Beta** that automatically adds **11 multiplayer bots** when you start an offline match.
+A GSC script for **Modern Warfare 4 – Beta** that allows you to configure the **number and difficulty of multiplayer bots** directly in the in-game lobby before starting an offline match.
 
 This is the first public release of the project. **Version 1 is a beta:** bots may not always behave correctly, and some features may not work as expected.
 
 ## Features
 
-- Automatically adds 11 bots to an offline multiplayer match.
+- Allows you to configure the number and difficulty of bots in the in-game lobby.
 - Installs through the game's `Custom` scripts folder.
 
 ## Requirements
@@ -23,7 +23,7 @@ These instructions are intended for the game installation described below. Compa
 3. If you already have custom scripts installed, back up any files that would be overwritten.
 4. Copy the extracted **`Custom` folder** into your game's **`rex\Assets\Scripts`** folder.
 5. Merge the folders and replace the existing file if prompted.
-6. Start the game and launch an **offline multiplayer match**. **11 bots will be added automatically.**
+6. Start the game and launch an **offline multiplayer match**. **Configure the number and difficulty of bots in the lobby before starting the match.**
 
 ### Example installation path
 
@@ -35,9 +35,9 @@ Use your own game installation directory if it differs from this example. The re
 
 ## Usage
 
-Once installed, start an offline multiplayer match to use the script. Bot spawning is automatic; no manual spawning step is required.
+Once installed, configure the number and difficulty of bots in the in-game lobby before starting an offline multiplayer match.
 
-**Do not manually add bots when creating a new match.** The script automatically adds all 11 bots for you.
+**Set the desired number of bots and their difficulty when creating a new match.**
 
 **Team Deathmatch works best** and is the recommended game mode for this version.
 
@@ -46,7 +46,6 @@ The supplied installation instructions cover offline multiplayer only.
 ## Known Limitations
 
 - This is a beta release.
-- The bot count is currently fixed at **11** and cannot be adjusted.
 - Bots may not always behave correctly.
 - Some features may not work perfectly.
 - Compatibility across different game builds, maps, modes, or other custom scripts is not guaranteed.
@@ -56,6 +55,7 @@ The supplied installation instructions cover offline multiplayer only.
 ### Bots do not appear
 
 - Confirm that you started an **offline multiplayer match**.
+- Make sure you configured the number of bots in the in-game lobby.
 - Check that you copied the release's `Custom` folder into `rex\Assets\Scripts` in the correct game installation.
 - Check that the multiplayer scripts are inside `Custom\mp`, without an extra nested `Custom` folder.
 - Close the game completely before reinstalling the script, then restart it.
@@ -78,13 +78,6 @@ Report bugs or suggestions through this repository's **Issues** tab, if enabled.
 - Any other custom scripts you have installed.
 - Screenshots, error messages, or logs, if available.
 
-## Release Notes
-
-### v1 — Initial Public Release
-
-- First public version of MW4 Bot Fix.
-- Automatic spawning of 11 bots in offline multiplayer matches.
-- Beta release for testing and feedback.
 
 ## Author
 
