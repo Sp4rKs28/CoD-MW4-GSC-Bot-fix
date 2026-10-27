@@ -147,4 +147,4 @@ Report bugs or suggestions through this repository's **Issues** tab, if enabled.
 
 ## Author
 
-Created by **Henrik**.
+Created by **SparKs**.
